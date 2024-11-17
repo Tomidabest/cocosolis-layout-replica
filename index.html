@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocosolis Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f5f0ed]">
+
+    <!-- Top Banner -->
+    <div class="bg-[#d2a290] text-center text-white py-2 text-sm">
+        БЕЗПЛАТНА ДОСТАВКА ДО 2 РАБОТНИ ДНИ
+    </div>
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="container mx-auto flex items-center justify-between px-4 py-3">
+            <a href="#" class="text-2xl font-bold text-gray-600">COCOSOLIS <span class="text-sm">organic</span></a>
+            <nav class="hidden md:flex space-x-6 text-gray-600">
+                <a href="#" class="hover:text-gray-800">НАЧАЛО</a>
+                <a href="#" class="hover:text-gray-800">ПРОДУКТИ</a>
+                <a href="#" class="hover:text-gray-800">CLUB</a>
+                <a href="#" class="hover:text-gray-800">ЗА НАС</a>
+                <a href="#" class="hover:text-gray-800">КОНТАКТИ</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hover:text-gray-800"><i class="fas fa-search"></i></a>
+                <a href="#" class="hover:text-gray-800">ВЛЕЗ В ПРОФИЛ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="relative container mx-auto grid grid-cols-12 gap-4 items-center py-40 px-10 bg-[#f5f0ed]">
+        <div class="absolute col-span-12 inset-0">
+            <img src="https://cocosolis.com/wp-content/uploads/home-hero-aura-desktop.jpg" alt="AURA Peptide Shimmer Spray" class="object-cover w-full h-full opacity-90">
+        </div>
+    
+        <div class="relative z-10 col-span-12 md:col-span-5 lg:col-span-4 bg-white bg-opacity-80 p-10 rounded-lg shadow-lg">
+            <h1 class="text-lg font-semibold text-[#d2a290]">New!</h1>
+            <h2 class="text-3xl font-semibold text-gray-800 mt-2 leading-tight">AURA: ПЪРВИЯТ БЛЕСТЯЩ СПРЕЙ С ПЕПТИДИ</h2>
+            <button class="mt-6 px-4 py-3 bg-[#a87c67] text-white font-semibold rounded-md hover:bg-[#8b6553]">
+                КУПИ СЕГА
+            </button>
+        </div>
+    </main>
+
+    <!-- Hair Section -->
+    <section class="container mx-auto grid grid-cols-1 px-4 py-12 bg-[#f7ece8]">
+        <div class="text-center">
+            <h3 class="text-3xl font-semibold text-[#8b6553]">КОСА</h3>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">Натурални продукти за силна, здрава и бляскава коса</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 text-center">
+            
+            <div class="bg-[#f5f0ed] p-6 rounded-lg shadow-md">
+                <a href="https://cocosolis.com/bg/product/grow-hair-growth-serum-spray/">
+                    <div class="h-[400px] w-[200px] mx-auto flex items-center justify-center">
+                        <img src="https://cocosolis.com/bg/wp-content/uploads/grow-product-image.png" alt="GROW Hair Growth Serum Spray" class="object-contain h-full w-full">
+                    </div>
+                </a>
+                <h4 class="text-lg font-semibold text-gray-700 mt-4">GROW</h4>
+                <p class="text-sm text-gray-500">Hair Growth Serum Spray</p>
+                <p class="text-sm text-gray-400 mt-1">Спрей серум за бърз растеж на косата.</p>
+                <p class="text-lg font-semibold text-gray-700 mt-4">59,00 лв.</p>
+                <button class="mt-4 px-4 py-2 bg-[#a87c67] text-white font-semibold rounded-md hover:bg-[#8b6553]">
+                    ДОБАВИ
+                </button>
+            </div>
+            
+            <div class="bg-[#f5f0ed] p-6 rounded-lg shadow-md">
+                <a href="https://cocosolis.com/bg/product/hair-oil-mask-3in1/">
+                    <div class="h-[400px] w-[200px] mx-auto flex items-center justify-center">
+                        <img src="https://cocosolis.com/bg/wp-content/uploads/hair-thumb-500x500-min.png" alt="HAIR Oil Mask 3in1" class="object-contain h-full w-full">
+                    </div>
+                </a>
+                <h4 class="text-lg font-semibold text-gray-700 mt-4">HAIR</h4>
+                <p class="text-sm text-gray-500">Oil Mask 3in1</p>
+                <p class="text-sm text-gray-400 mt-1">Натурално масло за интензивно подхранване.</p>
+                <p class="text-lg font-semibold text-gray-700 mt-4">45,00 лв.</p>
+                <button class="mt-4 px-4 py-2 bg-[#a87c67] text-white font-semibold rounded-md hover:bg-[#8b6553]">
+                    ДОБАВИ
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Section -->
+    <section class="bg-[#f5f0ed] py-12">
+        <div class="container mx-auto grid grid-cols-1 gap-4 text-center">
+            <h2 class="text-3xl font-semibold text-[#8b6553]">КОЖА</h2>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">Серията SKIN за перфектна кожа, без несъвършенства.</p>
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4">SKIN</h3>
+                    <p class="text-gray-500">Anti-cellulite Dry Oil</p>
+                    <p class="text-[#8b6553] text-sm mt-2">45,00 лв. / 110ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4">SKIN</h3>
+                    <p class="text-gray-500">Collagen Booster Dry Oil</p>
+                    <p class="text-[#8b6553] text-sm mt-2">45,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4">SKIN</h3>
+                    <p class="text-gray-500">Stretch Mark Dry Oil</p>
+                    <p class="text-[#8b6553] text-sm mt-2">48,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Face Section -->
+    <section class="bg-[#f7ece8] py-12">
+        <div class="container mx-auto grid grid-cols-1 text-center">
+            <h2 class="text-3xl font-semibold text-[#8b6553]">ЛИЦЕ</h2>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">Високоефективни натурални продукти за подмладена и сияйна кожа.</p>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 text-center">
+
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4 text-[#8b6553]">AQUA</h3>
+                    <p class="text-gray-500">Filler-Effect Hyaluron Supreme</p>
+                    <p class="text-[#8b6553] text-sm mt-2">78,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4 text-[#8b6553]">BERRY</h3>
+                    <p class="text-gray-500">Superberry Recharge Face Elixir</p>
+                    <p class="text-[#8b6553] text-sm mt-2">72,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4 text-[#8b6553]">ROSE</h3>
+                    <p class="text-gray-500">Purify & Nourish Oil Cleanser</p>
+                    <p class="text-[#8b6553] text-sm mt-2">52,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 text-center">
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4 text-[#8b6553]">ROSE</h3>
+                    <p class="text-gray-500">Clean & Hydrate Face Foam</p>
+                    <p class="text-[#8b6553] text-sm mt-2">42,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold mt-4 text-[#8b6553]">ROSE</h3>
+                    <p class="text-gray-500">Soothing Spray Toner</p>
+                    <p class="text-[#8b6553] text-sm mt-2">38,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Self-Tanning Section -->
+    <section class="bg-[#f5f0ed] py-12">
+        <div class="container mx-auto grid grid-cols-1 text-center">
+            <h2 class="text-3xl font-semibold text-[#8b6553]">АВТОБРОНЗАНТИ</h2>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">За перфектен тен, без да е необходимо слънце. Постигнете естествено изглеждащ, равномерен, наситен, бронзов тен.</p>
+            
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">SOLIS</h3>
+                    <p class="text-sm text-gray-500">Self-tanning Face Serum</p>
+                    <p class="text-sm text-gray-500 mt-1">Автобронзиращ серум за лице с хиалуронова киселина.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">56,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">SOLIS</h3>
+                    <p class="text-sm text-gray-500">Medium Self-tanning Foam</p>
+                    <p class="text-sm text-gray-500 mt-1">Натурална автобронзираща пяна.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">56,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">SOLIS</h3>
+                    <p class="text-sm text-gray-500">Dark Self-tanning Foam</p>
+                    <p class="text-sm text-gray-500 mt-1">Натурална автобронзираща пяна за дълготраен тен.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">56,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-64 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">SOLIS</h3>
+                    <p class="text-sm text-gray-500">Instant Weekend Tan</p>
+                    <p class="text-sm text-gray-500 mt-1">Натурална бронзираща пяна с моментален ефект.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">56,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-64 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">SELF-TANNING MITT</h3>
+                    <p class="text-sm text-gray-500">For ultimate results</p>
+                    <p class="text-sm text-gray-500 mt-1">За безупречно нанасяне на автобронзант.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">22,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-64 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">BACK APPLICATOR</h3>
+                    <p class="text-sm text-gray-500">For self-tanning foam</p>
+                    <p class="text-sm text-gray-500 mt-1">За равномерно нанасяне на гърба.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">28,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-64 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">EXFOLIATING MITT</h3>
+                    <p class="text-sm text-gray-500">100% high quality silk</p>
+                    <p class="text-sm text-gray-500 mt-1">Копринена ексфолираща ръкавица.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">43,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-64 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#6d4f47] mt-4">TANNING BRUSH</h3>
+                    <p class="text-sm text-gray-500">Premium tool for face</p>
+                    <p class="text-sm text-gray-500 mt-1">Прецизен инструмент за нанасяне на автобронзанти.</p>
+                    <p class="text-xl font-semibold text-[#6d4f47] mt-2">48,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ТЕН Section -->
+    <section class="bg-[#f7ece8] py-10">
+        <div class="container mx-auto grid grid-cols-1 text-center">
+            <h2 class="text-3xl font-semibold text-[#8b6553]">ТЕН</h2>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">Натурални, био масла за супер тен и сияйна кожа</p>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">WATERMELON</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">45,00 лв. / 110ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">CHOCO</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">63,00 лв. / 200ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">COOL</h3>
+                    <p class="text-sm text-gray-600">After Sun Oil</p>
+                    <p class="text-gray-600">63,00 лв. / 200ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">UOMO</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">43,00 лв. / 110ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">MONOI</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">65,00 лв. / 200ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">ALOHA</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">45,00 лв. / 110ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">MANGO</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">63,00 лв. / 200ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">ANANAS</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">63,00 лв. / 200ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">CITRO</h3>
+                    <p class="text-sm text-gray-600">Suntan & Body Oil</p>
+                    <p class="text-gray-600">45,00 лв. / 110ML</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Glow Section -->
+    <section class="bg-[#f5f0ed] py-10">
+        <div class="container mx-auto grid grid-cols-1 text-center">
+            <h2 class="text-3xl font-semibold text-[#8b6553]">БЛЯСЪК</h2>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">Натурални продукти за елегантен блясък и грижа за кожата</p>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">AURA</h3>
+                    <p class="text-sm text-gray-600">Peptide Shimmer Spray</p>
+                    <p class="text-gray-600">52,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">GLOW</h3>
+                    <p class="text-sm text-gray-600">Shimmer Oil</p>
+                    <p class="text-gray-600">52,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-xl font-semibold text-[#a87c67] mt-4">NOUGAT</h3>
+                    <p class="text-sm text-gray-600">Sparkling Body Butter</p>
+                    <p class="text-gray-600">95,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPF Section -->
+    <section class="bg-[#f7ece8] py-12">
+        <div class="container mx-auto grid grid-cols-1 text-center">
+            <h2 class="text-3xl font-semibold text-[#8b6553]">SPF</h2>
+            <p class="text-lg text-[#6d4f47] mt-2 text-center">Натурални, био слънцезащитни лосиони</p>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-lg font-semibold text-[#9d816e] mt-4">SPF30</h3>
+                    <p class="text-gray-600">Natural Sunscreen Lotion</p>
+                    <p class="text-[#9d816e] mt-2">45,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <div class="bg-gray-200 h-80 w-48 mx-auto rounded-lg"></div>
+                    <h3 class="text-lg font-semibold text-[#9d816e] mt-4">SPF50</h3>
+                    <p class="text-gray-600">Natural Sunscreen Lotion</p>
+                    <p class="text-[#9d816e] mt-2">45,00 лв.</p>
+                    <button class="mt-4 px-6 py-2 bg-[#8b6553] text-white rounded">ДОБАВИ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#d3b1a2] py-12">
+        <div class="container mx-auto grid grid-cols-12 items-center gap-6">
+            <div class="col-span-12 md:col-span-6 text-white px-8 md:px-12">
+                <ul class="space-y-8">
+                    <li class="flex items-center">
+                        <span class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-6 text-2xl">&#x1F331;</span>
+                        <div>
+                            <h4 class="text-3xl font-semibold">Натурални и Био</h4>
+                            <p class="text-lg">Продуктите на COCOSOLIS са винаги натурални и създадени само с най-висококачествени био масла.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-6 text-2xl">&#x1F499;</span>
+                        <div>
+                            <h4 class="text-3xl font-semibold">Създадени с любов</h4>
+                            <p class="text-lg">Създадени с любов и уважение към хората и природата.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center">
+                        <span class="bg-white w-12 h-12 rounded-full flex justify-center items-center mr-6 text-2xl">&#x1F436;</span>
+                        <div>
+                            <h4 class="text-3xl font-semibold">С отношение</h4>
+                            <p class="text-lg">Без наличие на парабени, оцветители и синтетични масла.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-span-12 md:col-span-6">
+                    <img src="https://cocosolis.com/wp-content/uploads/home-benefits-image.jpg" alt="COCOSOLIS Product Image" class="w-[100%] h-[400px] md:w-[100%] md:h-[100%]">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#6a4a3c] py-12 text-center text-white">
+        <div class="container mx-auto grid grid-cols-1 gap-6">
+            <h2 class="text-3xl font-semibold">Нека бъдем приятели!</h2>
+            <p>Абонирайте се, за да бъдете сред първите, които ще научат за нашите нови продукти и промоции:</p>
+            <form class="max-w-lg mx-auto grid gap-4">
+                <input type="email" placeholder="твоята имейл адрес" class="w-full px-4 py-2 rounded">
+                <div class="flex items-start">
+                    <input type="checkbox" class="mr-2">
+                    <span class="text-sm">Съгласен/на съм предоставеният от мен имейл да бъде използван за получаване на известия...</span>
+                </div>
+                <button type="submit" class="bg-[#a67c6b] py-2 px-4 rounded">ВЛЕЗ В КЛУБА</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="bg-[#f2f2f2] py-12">
+        <div class="text-center grid grid-cols-1 gap-4">
+            <h2 class="text-4xl font-bold font-comfortaa">ПОТРЕБИТЕЛСКИ ОТЗИВИ</h2>
+            <p class="text-lg">18 369 мнения, от които 2 299 от български клиенти</p>
+        </div>
+        <div class="container mx-auto grid gap-8 max-w-4xl">
+        
+            <div class="bg-white p-6 rounded-lg shadow-md grid grid-cols-[auto_1fr] gap-4">
+                <img src="https://via.placeholder.com/50" alt="User Image" class="rounded-full">
+                <div>
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-semibold font-comfortaa text-lg">Даниела Д.</h3>
+                        <span class="text-gray-400 text-sm">08.07.2024</span>
+                    </div>
+                    <p class="text-green-500 font-comfortaa">потвърдена поръчка</p>
+                    <p class="mt-2 font-comfortaa text-gray-600">Копринено нежни масла за кожата. Ароматите са превъзходни.</p>
+                    <img src="https://via.placeholder.com/100" alt="Product Image" class="rounded-lg mt-2">
+                    <div class="flex items-center justify-end mt-4 space-x-2 text-gray-400 text-sm">
+                        <span>Това мнение беше ли полезно за Вас?</span>
+                        <span class="flex items-center space-x-1 cursor-pointer">
+                            <i class="fas fa-thumbs-up"></i><span></span>
+                        </span>
+                        <span class="flex items-center space-x-1 cursor-pointer">
+                            <i class="fas fa-thumbs-down"></i><span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md grid grid-cols-[auto_1fr] gap-4">
+                <img src="https://via.placeholder.com/50" alt="User Image" class="rounded-full">
+                <div>
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-semibold font-comfortaa text-lg">Калина В.</h3>
+                        <span class="text-gray-400 text-sm">08.07.2024</span>
+                    </div>
+                    <p class="text-green-500 font-comfortaa">потвърдена поръчка</p>
+                    <p class="mt-2 font-comfortaa text-gray-600">Уникално масло! Уникален аромат!</p>
+                    <img src="https://via.placeholder.com/100" alt="Product Image" class="rounded-lg mt-2">
+                    <div class="flex items-center justify-end mt-4 space-x-2 text-gray-400 text-sm">
+                        <span>Това мнение беше ли полезно за Вас?</span>
+                        <span class="flex items-center space-x-1 cursor-pointer">
+                            <i class="fas fa-thumbs-up"></i><span></span>
+                        </span>
+                        <span class="flex items-center space-x-1 cursor-pointer">
+                            <i class="fas fa-thumbs-down"></i><span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<section class="bg-[#00a8e1] py-4">
+    <div class="container mx-auto text-center text-white font-comfortaa">
+        <p>SOS ДЕТСКИ СЕЛИЩА БЪЛГАРИЯ | ЗЛАТЕН ПАРТНЬОР 2023</p>
+        <p>COCOSOLIS дарява по 1лв. от всеки закупен продукт на SOS детски селища.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#816c65] py-10">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-4 text-center">
+        <div class="mb-6">
+            <h3 class="text-white font-semibold mb-4">Полезни връзки</h3>
+            <ul class="text-[#d3d3d3]">
+                <li><a href="#" class="hover:text-white">Продукти</a></li>
+                <li><a href="#" class="hover:text-white">CLUB</a></li>
+                <li><a href="#" class="hover:text-white">Контакти</a></li>
+                <li><a href="#" class="hover:text-white">За нас</a></li>
+                <li><a href="#" class="hover:text-white">Правила за закупуване</a></li>
+                <li><a href="#" class="hover:text-white">Условия за ползване на сайта</a></li>
+                <li><a href="#" class="hover:text-white">Условия на Програмата за лоялност</a></li>
+                <li><a href="#" class="hover:text-white">Политика за бисквитки</a></li>
+                <li><a href="#" class="hover:text-white">Политика за връщане</a></li>
+                <li><a href="#" class="hover:text-white">Поръчка и доставка</a></li>
+                <li><a href="#" class="hover:text-white">Политика за защита на лични данни</a></li>
+            </ul>
+        </div>
+
+        <div class="mb-6">
+            <h3 class="text-white font-semibold mb-4">НЕКА БЪДЕМ ПРИЯТЕЛИ!</h3>
+            <p class="text-[#d3d3d3] mb-4">Абонирайте се, за да бъдете сред първите, които ще научат за нашите нови продукти и промоции:</p>
+            <input type="email" placeholder="твоята имейл адрес" class="w-full p-2 rounded mb-2 text-gray-800">
+            <div class="text-left text-[#d3d3d3] text-xs">
+                <label><input type="checkbox" class="mr-2">Съгласявам/на съм предоставеният от мен имейл да бъде използван за да получавам известия за новости...</label>
+            </div>
+            <button class="mt-4 px-6 py-2 bg-[#ae8c7c] text-white rounded hover:bg-[#936b5d]">ВЛЕЗ В КЛУБА</button>
+        </div>
+
+        <div class="mb-6">
+            <h3 class="text-white font-semibold mb-4">Последвайте ни</h3>
+            <div class="flex justify-center space-x-4 mb-4">
+                <a href="#" class="text-white text-2xl"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white text-2xl"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white text-2xl"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="text-[#d3d3d3]">Тагни ни и има шанс да видиш своята снимка или видео в профила ни! #cocosolis</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 text-center mt-10">
+        <p class="text-[#d3d3d3] mb-4">Гарантирано сигурно плащане с:</p>
+        <div class="flex justify-center space-x-4">
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+            <div class="h-8 w-8 bg-gray-300 rounded"></div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="container mx-auto text-center text-[#d3d3d3] mt-6 border-t border-[#d3d3d3] pt-6">
+        <p>© 2016 - 2024 COCOSOLIS | All rights reserved</p>
+    </div>
+</footer>
+</html>
